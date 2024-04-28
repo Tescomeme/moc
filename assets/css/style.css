@@ -1,0 +1,257 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.firstnav,
+.nav2 {
+    background-color: #1e6642;
+    color: white;
+    font-size: 18px;
+    height: 70px;
+    padding: 20px 15px 0 10px;
+    display: flex;
+    justify-content: space-between;
+
+    ul {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        padding-left: 50px;
+
+        i {
+            font-size: 12px;
+
+        }
+    }
+
+    .social,
+    .navimage {
+        display: flex;
+        gap: 15px;
+        padding-right: 20px;
+
+        i {
+            width: 30px;
+            height: 30px;
+        }
+
+    }
+
+}
+
+.container {
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    box-shadow: 0 0 5px rgb(199, 190, 190);
+    /* overflow: hidden; */
+
+
+    .sectionimage {
+        background-image: url(/assets/images/heroimage.png);
+        height: 176px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+    }
+
+    .nav2 {
+        background-color: white;
+        color: black;
+        box-shadow: 0 1px 5px black;
+        height: 50px;
+        padding: 11px;
+        font-size: 15px;
+
+
+
+    }
+
+    .navlist>ul>li:first-child::after {
+        content: "";
+        border-bottom: 4px solid #1e6642;
+        width: 70px;
+        height: 50px;
+        position: absolute;
+        top: -10px;
+        right: -10px;
+
+
+
+    }
+
+    .navlist>ul>li:nth-child(2):hover::after {
+        content: "";
+        border-bottom: 4px solid #1e6642;
+        width: 80px;
+        height: 50px;
+        position: absolute;
+        top: -10px;
+        right: -10px;
+
+
+    }
+
+    .navlist>ul>li:nth-child(3):hover::after {
+        content: "";
+        border-bottom: 4px solid #1e6642;
+        width: 80px;
+        height: 50px;
+        position: absolute;
+        top: -10px;
+        right: -10px;
+
+
+    }
+
+    .navlist>ul>li:nth-child(5):hover::after {
+        content: "";
+        border-bottom: 4px solid #1e6642;
+        width: 100px;
+        height: 50px;
+        position: absolute;
+        top: -10px;
+        right: -10px;
+
+
+    }
+
+    .navlist>ul>li:nth-child(5):hover::after {
+        content: "";
+        border-bottom: 4px solid #1e6642;
+        width: 100px;
+        height: 50px;
+        position: absolute;
+        top: -10px;
+        right: -10px;
+
+
+    }
+
+    .navlist>ul>li:nth-child(6):hover::after {
+        content: "";
+        border-bottom: 4px solid #1e6642;
+        width: 80px;
+        height: 50px;
+        position: absolute;
+        top: -10px;
+        right: -10px;
+
+
+    }
+
+    .navlist>ul>li:nth-child(8):hover::after {
+        content: "";
+        border-bottom: 4px solid #1e6642;
+        width: 100px;
+        height: 50px;
+        position: absolute;
+        top: -10px;
+        right: -10px;
+
+
+    }
+
+    
+
+    .navlist>ul>li {
+        position: relative;
+        
+
+    }
+
+    .navimage {
+        padding-top: 9px;
+        padding-right: 50px;
+    }
+
+    .section {
+        display: flex;
+        margin: 50px;
+        gap: 3px;
+
+
+    }
+
+    .text {
+        position: absolute;
+        display: grid;
+        gap: 15px;
+        /* align-items: flex-end; */
+
+        /* height: 400px; */
+        color: white;
+        z-index: 1;
+        top: 205px;
+        padding: 25px;
+        font-size: 14.6px;
+
+        p {
+            font-size: 13.5px;
+
+        }
+    }
+
+    .image1 {
+        background-image: url(/assets/images/firstimage.webp);
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        transition: all 0.5s ease;
+        filter: brightness(60%);
+
+
+    }
+
+    .image1:hover {
+        transform: scale(1.1);
+    }
+
+    .card {
+        height: 400px;
+        width: 300px;
+        border-radius: 3px;
+        overflow: hidden;
+        position: relative;
+    }
+
+
+
+.sponsorimage{
+    height: 150px;
+    background-image: url(/assets/images/MoC-Student-Athlete-Sponsors-Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
